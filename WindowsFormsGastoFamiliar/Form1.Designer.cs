@@ -87,7 +87,6 @@
             this.grbGastos.TabIndex = 2;
             this.grbGastos.TabStop = false;
             this.grbGastos.Text = "Gastos";
-            this.grbGastos.Enter += new System.EventHandler(this.grbGastos_Enter);
             // 
             // txtOutros
             // 
@@ -187,6 +186,7 @@
             this.btnCalcular.TabIndex = 3;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnLimpar
             // 
@@ -196,6 +196,7 @@
             this.btnLimpar.TabIndex = 4;
             this.btnLimpar.Text = "Novo Calculo";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnFechar
             // 
@@ -205,6 +206,7 @@
             this.btnFechar.TabIndex = 5;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // label7
             // 
